@@ -30,13 +30,13 @@ Step-by-step user guide [Video](https://drive.google.com/file/d/1eirDH9N04ydhHLL
 
 1. Run the below command to clone this repo:
 ```
-git clone https://github.com/madgical-ai/how-to-use-helicone-proxy-server-2.0.git
+git clone https://github.com/abhisheksrivastav3604/how-to-use-helicone-proxy-server-2.0.git
 ```
 2. For cURL method :
    ```
    --request POST \
    --url `https://3ktbkv6m9d.execute-api.ap-south-1.amazonaws.com/dev/request/<engine name>/v1/chat`
-   --header `Helicone-User-Id: <User-name>` \
+   --header `User-Id: <User-name>` \
    --data `{
 	"model": "gpt-4",
 	"temperature": 0.5,
